@@ -1,21 +1,12 @@
-# Black Rose Site (Static v2)
+# Black Rose Site (GitHub Pages)
 
-Static website files for the **Black Rose** toolkit (Anno 117).
+This is a static site.
 
 ## Run locally
-```bash
-# from the project folder
-python -m http.server 8080
-# then open:
-# http://localhost:8080
-```
+Open `index.html` in your browser.
 
-## Deploy on GitHub Pages (project repo)
-1. Create a new GitHub repo (example: `black-rose-site`).
-2. Upload **these files** to the repo root (same level as `index.html`).
-3. In GitHub: **Settings → Pages**
-   - **Build and deployment** → Source: **Deploy from a branch**
-   - Branch: **main** (or `master`) / Folder: **/** (root)
-4. Wait until Pages shows the site URL, then open it.
+## GitHub Pages
+- Repo Pages URL: `https://<username>.github.io/<repo>/`
+- In GitHub: Settings → Pages → Deploy from branch → `main` + `/(root)`
 
-> Note: All links/assets are **relative**, so it works on `https://username.github.io/repo-name/` without changes.
+If you rename the repo to `<username>.github.io`, the site will be available at the root domain.
